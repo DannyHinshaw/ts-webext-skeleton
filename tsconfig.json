@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+    "rootDir": "src",
+    "outDir": "dist/js",
+		"module": "esnext",
+		"target": "es5",
+		"lib": ["es6", "dom", "es2017"],
+		"sourceMap": true,
+		"allowJs": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"removeComments": true,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": false,
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"]
+  },
+	"exclude": [
+    "dist",
+		"node_modules",
+		"webpack"
+	]
+}

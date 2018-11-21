@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"tslint:recommended",
+		"tslint-react",
+		"tslint-config-prettier"
+	],
+	"rules": {
+		"no-empty-interface": {
+			"severity": "warning"
+		},
+		"object-literal-sort-keys": {
+			"severity": "none"
+		}
+	},
+	"linterOptions": {
+		"exclude": [
+			"config/**/*.js",
+			"node_modules/**/*.ts",
+			"coverage/lcov-report/*.js"
+		]
+	}
+}
