@@ -8,6 +8,8 @@ This is a very simple architecture template. All `.ts` and `.scss` files are com
 names in `dist/compiled`, with the static assets one level above. The extension build is just a zip of the `dist` folder and
 is put in `web-ext-artifacts` directory, this is what you use for further submission/signing.
 
+For an example build see: [TabSwitcher](https://github.com/DannyHinshaw/tab-switcher-ext)
+
 ## Develop
 
 Install dependencies:
